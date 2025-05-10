@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة تعلم اللغة التركية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="site-header">
+            <div class="header-content">
+                <button id="nav-toggle-button" class="nav-toggle-button" aria-label="فتح/إغلاق القائمة" aria-expanded="false">
+                    <i class="fas fa-bars icon-menu"></i>
+                    <i class="fas fa-times icon-close"></i>
+                </button>
+                
+                <a href="#" class="logo-title-group" id="home-link" aria-label="الصفحة الرئيسية">
+                    <img src="logo.png" alt="شعار تعلم التركية" class="logo"> <!-- ضع شعارك هنا -->
+                    <h1>تعلم اللغة التركية</h1>
+                </a>
+                
+                <div class="header-spacer"></div> 
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <nav id="main-navigation" class="main-navigation" aria-label="قائمة الوحدات">
+                <div class="nav-scroll-content">
+                    
+                    <details class="level-details" open> 
+                        <summary class="level-summary">
+                            <h2><i class="fas fa-layer-group"></i> الوحدة الأولى</h2>
+                            <i class="fas fa-chevron-down summary-icon"></i>
+                        </summary>
+                        <ul id="level-1-lessons" class="lesson-list">
+                            <li><a href="#u1_lesson1_basics" data-page="level_1/lesson1_basics"><i class="fas fa-feather-alt"></i> 1. أساسيات اللغة</a></li>
+                            <li><a href="#u1_lesson2_cases_pointers" data-page="level_1/lesson2_cases_pointers"><i class="fas fa-map-signs"></i> 2. حالات الاسم والإشارة</a></li>
+                            <li><a href="#u1_lesson3_tenses" data-page="level_1/lesson3_tenses"><i class="far fa-clock"></i> 3. الأزمنة الأساسية</a></li>
+                            <li><a href="#u1_lesson4_syntax_advanced" data-page="level_1/lesson4_syntax_advanced"><i class="fas fa-drafting-compass"></i> 4. بناء الجملة المتقدم</a></li>
+                            <li><a href="#u1_lesson5_vocab_dialogues" data-page="level_1/lesson5_vocab_dialogues"><i class="fas fa-language"></i> 5. مفردات وحوارات</a></li>
+                        </ul>
+                    </details>
+
+                    <hr class="nav-divider">
+
+                    <details class="level-details">
+                        <summary class="level-summary">
+                             <h2><i class="fas fa-rocket"></i> الوحدة الثانية</h2>
+                             <i class="fas fa-chevron-down summary-icon"></i>
+                        </summary>
+                        <ul id="level-2-lessons" class="lesson-list">
+                            <li><a href="#u2_lesson1_tenses_review_mis" data-page="level_2/l2_lesson1_tenses_review_mis"><i class="fas fa-redo-alt"></i> 1. مراجعة أزمنة وزمن "-miş"</a></li>
+                            <li><a href="#u2_lesson2_adv_nominal_adjectives" data-page="level_2/l2_lesson2_adv_nominal_adjectives"><i class="fas fa-tags"></i> 2. جمل اسمية وصفات متقدمة</a></li>
+                            <li><a href="#u2_lesson3_conditionals_wishes_orders" data-page="level_2/l2_lesson3_conditionals_wishes_orders"><i class="fas fa-tasks"></i> 3. شرط، تمني، وأمر</a></li>
+                            <li><a href="#u2_lesson4_passive_ability" data-page="level_2/l2_lesson4_passive_ability"><i class="fas fa-tools"></i> 4. مبني للمجهول واستطاعة</a></li>
+                            <li><a href="#u2_lesson5_adv_conjunctions_clauses" data-page="level_2/l2_lesson5_adv_conjunctions_clauses"><i class="fas fa-link"></i> 5. أدوات ربط وجمل مركبة</a></li>
+                            <li><a href="#u2_lesson6_adv_life_situations" data-page="level_2/l2_lesson6_adv_life_situations"><i class="fas fa-street-view"></i> 6. مواقف حياتية متقدمة</a></li>
+                            <li><a href="#u2_lesson7_reading_review" data-page="level_2/l2_lesson7_reading_review"><i class="fas fa-book-reader"></i> 7. قراءة ومراجعة شاملة</a></li>
+                        </ul>
+                    </details>
+
+                    <hr class="nav-divider">
+
+                    <details class="level-details">
+                        <summary class="level-summary">
+                             <h2><i class="fas fa-mountain"></i> الوحدة الثالثة</h2>
+                             <i class="fas fa-chevron-down summary-icon"></i>
+                        </summary>
+                        <ul id="level-3-lessons" class="lesson-list">
+                            <li><a href="#u3_lesson1_birlesik_zamanlar" data-page="level_3/l3_lesson1_birlesik_zamanlar"><i class="fas fa-project-diagram"></i> 1. الأزمنة المركبة</a></li>
+                            <li><a href="#u3_lesson2_gereklilik_olasilik" data-page="level_3/l3_lesson2_gereklilik_olasilik"><i class="fas fa-check-double"></i> 2. الضرورة والاحتمالية</a></li>
+                            <li><a href="#u3_lesson3_sifat_fiiller_detay" data-page="level_3/l3_lesson3_sifat_fiiller_detay"><i class="fas fa-puzzle-piece"></i> 3. الجمل الموصولة</a></li>
+                            <li><a href="#u3_lesson4_zarf_fiiller_detay" data-page="level_3/l3_lesson4_zarf_fiiller_detay"><i class="fas fa-route"></i> 4. الجمل الظرفية</a></li>
+                            <li><a href="#u3_lesson5_dolayli_anlatim" data-page="level_3/l3_lesson5_dolayli_anlatim"><i class="fas fa-comments"></i> 5. نقل الكلام المتقدم</a></li>
+                            <li><a href="#u3_lesson6_deyimler_kultur" data-page="level_3/l3_lesson6_deyimler_kultur"><i class="fas fa-comment-dots"></i> 6. تعبيرات اصطلاحية وثقافة</a></li>
+                            <li><a href="#u3_lesson7_ileri_okuma_yazma" data-page="level_3/l3_lesson7_ileri_okuma_yazma"><i class="fas fa-pen-fancy"></i> 7. قراءة وكتابة متقدمة</a></li>
+                        </ul>
+                    </details>
+
+                    <hr class="nav-divider"> 
+
+                    <details class="level-details"> 
+                        <summary class="level-summary">
+                             <h2><i class="fas fa-gem"></i> الوحدة الرابعة <span class="level-status-badge">(مفردات)</span></h2>
+                             <i class="fas fa-chevron-down summary-icon"></i>
+                        </summary>
+                        <ul id="level-4-lessons" class="lesson-list">
+                            <li><a href="#u4_lesson1_ev_aile" data-page="level_4/l4_lesson1_ev_aile"><i class="fas fa-home"></i> 1. الحياة المنزلية والعائلية</a></li>
+                            <li><a href="#u4_lesson2_yiyecek_icecek" data-page="level_4/l4_lesson2_yiyecek_icecek"><i class="fas fa-utensils"></i> 2. الأطعمة والمشروبات</a></li>
+                            <li><a href="#u4_lesson3_doga_seyahat" data-page="level_4/l4_lesson3_doga_seyahat"><i class="fas fa-tree"></i> 3. الطبيعة والسفر</a></li>
+                            <li><a href="#u4_lesson4_is_teknoloji" data-page="level_4/l4_lesson4_is_teknoloji"><i class="fas fa-briefcase"></i> 4. العمل والتكنولوجيا</a></li>
+                            <li><a href="#u4_lesson5_duygular_kisilik" data-page="level_4/l4_lesson5_duygular_kisilik"><i class="far fa-smile-beam"></i> 5. المشاعر والشخصية</a></li>
+                            <li><a href="#u4_lesson6_sanat_kultur_hobi" data-page="level_4/l4_lesson6_sanat_kultur_hobi"><i class="fas fa-palette"></i> 6. الفن، الثقافة، والهوايات</a></li>
+                            <li><a href="#u4_lesson7_atasozleri_deyimler_derin" data-page="level_4/l4_lesson7_atasozleri_deyimler_derin"><i class="fas fa-book-open"></i> 7. تعمق في الأمثال والتعابير</a></li>
+                        </ul>
+                    </details>
+
+                    <hr class="nav-divider">
+
+                    <details class="level-details"> 
+                        <summary class="level-summary">
+                             <h2><i class="fas fa-street-view"></i> الوحدة الخامسة <span class="level-status-badge">(ممارسة)</span></h2>
+                             <i class="fas fa-chevron-down summary-icon"></i>
+                        </summary>
+                        <ul id="level-5-lessons" class="lesson-list">
+                            <li><a href="#u5_lesson1_istanbul_sabah" data-page="level_5/l5_lesson1_istanbul_sabah"><i class="fas fa-sun"></i> 1. يوم في اسطنبول: الصباح</a></li>
+                            <li><a href="#u5_lesson2_istanbul_ogle" data-page="level_5/l5_lesson2_istanbul_ogle"><i class="fas fa-cloud-sun"></i> 2. يوم في اسطنبول: الظهيرة</a></li>
+                            <li><a href="#u5_lesson3_istanbul_aksam" data-page="level_5/l5_lesson3_istanbul_aksam"><i class="fas fa-moon"></i> 3. يوم في اسطنبول: المساء</a></li>
+                            <li><a href="#u5_lesson4_seyahat_planlama" data-page="level_5/l5_lesson4_seyahat_planlama"><i class="fas fa-map-marked-alt"></i> 4. تخطيط رحلة (تطبيقي)</a></li>
+                            <li><a href="#u5_lesson5_kultur_etkinligi" data-page="level_5/l5_lesson5_kultur_etkinligi"><i class="fas fa-theater-masks"></i> 5. حضور فعالية ثقافية</a></li>
+                            <li><a href="#u5_lesson6_arkadas_sohbeti" data-page="level_5/l5_lesson6_arkadas_sohbeti"><i class="fas fa-users"></i> 6. محادثات مع الأصدقاء</a></li>
+                            <li><a href="#u5_lesson7_gunluk_sorunlar" data-page="level_5/l5_lesson7_gunluk_sorunlar"><i class="fas fa-tools"></i> 7. مشاكل يومية وحلولها</a></li>
+                            <li><a href="#u5_lesson8_hikaye_anlatimi" data-page="level_5/l5_lesson8_hikaye_anlatimi"><i class="fas fa-book"></i> 8. سرد قصة قصيرة</a></li>
+                            <li><a href="#u5_lesson9_is_gorusmesi" data-page="level_5/l5_lesson9_is_gorusmesi"><i class="fas fa-user-tie"></i> 9. محاكاة مقابلة عمل</a></li>
+                            <li><a href="#u5_lesson10_genel_kultur_tekrar" data-page="level_5/l5_lesson10_genel_kultur_tekrar"><i class="fas fa-globe-europe"></i> 10. ثقافة عامة تركية ومراجعة</a></li> 
+                        </ul>
+                    </details>
+
+                    <div class="nav-promo">
+                        <i class="fas fa-graduation-cap fa-2x"></i>
+                        <p>استمر في رحلة التعلم!</p>
+                    </div>
+                </div>
+            </nav>
+
+            <main id="content-area" class="content-area">
+                <!-- شريط التنويه العلوي سيُضاف هنا بواسطة JavaScript لكل درس -->
+                <div class="welcome-message-placeholder"> 
+                    <div class="welcome-card">
+                        <img src="turkey-welcome.png" alt="مرحباً بك في دورة اللغة التركية" class="welcome-image"> 
+                        <h2><i class="fas fa-book-reader"></i> أهلاً بك في منصة تعلم اللغة التركية!</h2>
+                        <p>ابدأ رحلة شيقة وممتعة لاكتشاف جمال اللغة التركية وثقافتها الغنية. 
+                        <span class="interactive-prompt" id="open-nav-prompt-main">اختر وحدة ثم درسًا من القائمة الجانبية للانطلاق.</span></p>
+                        
+                        <div class="pronunciation-notice-main">
+                            <i class="fas fa-info-circle"></i>
+                            <p><strong>تنويه هام بخصوص ميزة النطق الصوتي:</strong>
+                                <br>النطق الآلي في هذا الموقع هو أداة مساعدة أولية وقد يعتمد على قدرات المتصفح وجودة الأصوات التركية المثبتة على جهازك. 
+                                <br>لإتقان اللفظ الصحيح، يُنصح بشدة بالاستماع المستمر لمتحدثين أتراك أصليين من خلال مصادر متنوعة مثل مقاطع الفيديو التعليمية، الأغاني، والمسلسلات. استخدم هذه الميزة كدليل مبدئي، وركز على تطوير أذنك للغة الأصلية.
+                            </p>
+                        </div>
+
+                        <div class="start-learning-tip"> 
+                            <i class="fas fa-hand-point-right"></i> 
+                            <span class="interactive-prompt" id="open-nav-prompt-tip">انقر هنا لفتح قائمة الوحدات واختيار درس</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer class="site-footer">
+            <p>© <span id="current-year"></span> جميع الحقوق محفوظة لـ "تعلم التركية".</p>
+        </footer>
+    </div>
+
+    <div id="overlay" class="overlay"></div> 
+    <div id="tts-error-feedback"></div>
+    <script src="script.js"></script> 
+</body>
+</html>
